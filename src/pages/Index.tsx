@@ -27,7 +27,7 @@ interface Recipe {
   difficulty: string;
   cuisine: string;
   dietary_tags: string[];
-  health_score?: number;
+  health_score: number;
   image_url?: string;
 }
 
